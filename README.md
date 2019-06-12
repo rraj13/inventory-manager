@@ -1,2 +1,2 @@
 # inventory-manager
-Inventory manager build with C# and MySQL!
+Apple Product Inventory Manager built with C# and MySQL!
