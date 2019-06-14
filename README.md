@@ -2,9 +2,27 @@
 
 ## Introduction
 
-Hi there! Here I have built a inventory management system for Apple products, allowing users to add, update and delete products from inventory. Written in C#, this console application is connected with a SQL Server database to hold information on all the existing products. However, because it is a console application, it unfortunately cannot be deployed to Github or Heroku, so I have made a short video demonstrating the program! Please see below: 
+Hi there! Here I have built a inventory management system for Apple products, allowing users to add, update and delete products from inventory. Written in C#, this console application is connected with a SQL Server database to hold information on all the existing products. However, because it is a console application, it unfortunately cannot be deployed to Github or Heroku, so I have included screenshots with descriptions below!
 
-LINK
+Running program --> Read function is performed and all existing inventory products are displayed
+
+![Alt text](InventoryScreenshots/dotnetrun.png?raw=true "Run Program")
+
+Add product --> User types add command, enters details of new product and product is inserted into database
+
+![Alt text](InventoryScreenshots/addproduct.png?raw=true "Add Product")
+
+Update product --> User types update command, selects field to be updated, enters new text, and product is updated in database
+
+![Alt text](InventoryScreenshots/updateproduct.png?raw=true "Add Product")
+
+Delete product - User types delete command, selects product to be deleted by ID, and product is deleted from database
+
+![Alt text](InventoryScreenshots/deleteproduct.png?raw=true "Add Product")
+
+Final view of database - Mouse has been added (ID: 12), iPad (ID: 6) Description has been updated, and AirPods (ID: 10) has been deleted 
+
+![Alt text](InventoryScreenshots/finalinventory.png?raw=true "Add Product")
 
 Please read on for more details regarding technologies, principles used and general methodologies!
 
