@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-
 namespace inventory_manager
 {
     class Program
